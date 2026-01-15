@@ -1,5 +1,5 @@
 [green_agent]
-agentbeats_id = ""
+agentbeats_id = "019bc25f-f5d9-7582-b51e-d5d3704cdf97"
 env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
 
 [[participants]]
