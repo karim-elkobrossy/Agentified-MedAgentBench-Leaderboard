@@ -1,5 +1,5 @@
 [green_agent]
-agentbeats_id = "019bc25f-f5d9-7582-b51e-d5d3704cdf97"
+agentbeats_id = "019bc49c-c267-7f42-bc7d-b9b3f318b932"
 env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", LOG_LEVEL = "INFO" }
 
 [[participants]]
