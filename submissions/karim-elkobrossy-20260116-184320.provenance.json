@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "registry.hub.docker.com/bitbreakers/green-agent@sha256:8f9c83bd327a32f8c2be67a0e2ea593b333f92fc9473e04e64169503e78aa9ac",
+    "agent": "registry.hub.docker.com/bitbreakers/white-agent@sha256:3504017a15e51e90b6f648eabdb1df6e695ce784afc802f72260a3ee0653b933",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-01-16T18:43:20Z",
+  "github_actions": {
+    "run_url": "https://github.com/karim-elkobrossy/Agentified-MedAgentBench-Leaderboard/actions/runs/21077002927",
+    "run_logs_url": "https://api.github.com/repos/karim-elkobrossy/Agentified-MedAgentBench-Leaderboard/actions/runs/21077002927/logs",
+    "ref": "refs/heads/test-leaderboard",
+    "sha": "c672b92a62401ed9d39f79a3a3743dbf04c59e73",
+    "repository_url": "https://github.com/karim-elkobrossy/Agentified-MedAgentBench-Leaderboard",
+    "workflow_ref": "karim-elkobrossy/Agentified-MedAgentBench-Leaderboard/.github/workflows/run-scenario.yml@refs/heads/test-leaderboard",
+    "workflow_sha": "c672b92a62401ed9d39f79a3a3743dbf04c59e73"
+  }
+}
