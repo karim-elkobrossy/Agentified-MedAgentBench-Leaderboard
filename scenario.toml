@@ -9,6 +9,6 @@ env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", LOG_LEVEL = "INFO" }
 
 [config]
 domain = "healthcare"
-num_tasks = 5
+num_tasks = 50
 mcp_server_url = "http://medagentbench.ddns.net:8002"
 fhir_server_url = "http://medagentbench.ddns.net:8080/fhir"
