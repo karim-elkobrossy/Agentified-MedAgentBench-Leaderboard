@@ -1,0 +1,61 @@
+{
+  "participants": {
+    "agent": "019bc282-671e-7731-9dd9-0d86d3d5a29e"
+  },
+  "results": [
+    {
+      "domain": "healthcare",
+      "total_tasks": 5,
+      "correct_count": 5,
+      "pass_rate": 100.0,
+      "task_results": {
+        "task2_1": {
+          "task_id": "task2_1",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[60]",
+          "expected_answer": null,
+          "time_used": 9.035805702209473,
+          "rounds": 1
+        },
+        "task3_1": {
+          "task_id": "task3_1",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"Recorded blood pressure 118/77 mmHg for patient S2380121 at 2023-11-13T10:15:00+00:00. Observation ID: 786017\"]",
+          "expected_answer": null,
+          "time_used": 96.66640758514404,
+          "rounds": 1
+        },
+        "task4_1": {
+          "task_id": "task4_1",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 47.9491651058197,
+          "rounds": 1
+        },
+        "task5_1": {
+          "task_id": "task5_1",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"No serum magnesium level found in the last 24 hours for patient S6315806; no IV magnesium ordered.\"]",
+          "expected_answer": null,
+          "time_used": 53.82132935523987,
+          "rounds": 1
+        },
+        "task6_1": {
+          "task_id": "task6_1",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[97]",
+          "expected_answer": null,
+          "time_used": 51.56279468536377,
+          "rounds": 1
+        }
+      },
+      "time_used": 259.0361225605011
+    }
+  ]
+}
