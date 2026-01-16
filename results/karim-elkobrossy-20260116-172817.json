@@ -1,0 +1,25 @@
+{
+  "participants": {
+    "agent": "019bc282-671e-7731-9dd9-0d86d3d5a29e"
+  },
+  "results": [
+    {
+      "domain": "healthcare",
+      "total_tasks": 1,
+      "correct_count": 0,
+      "pass_rate": 0.0,
+      "task_results": {
+        "task2_1": {
+          "task_id": "task2_1",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[60]",
+          "expected_answer": null,
+          "time_used": 8.661911010742188,
+          "rounds": 1
+        }
+      },
+      "time_used": 8.662046194076538
+    }
+  ]
+}
