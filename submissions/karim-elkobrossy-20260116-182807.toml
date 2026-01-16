@@ -1,0 +1,15 @@
+[green_agent]
+agentbeats_id = "019bc49c-c267-7f42-bc7d-b9b3f318b932"
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", LOG_LEVEL = "INFO" }
+
+[[participants]]
+agentbeats_id = "019bc282-671e-7731-9dd9-0d86d3d5a29e"
+name = "agent"
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", LOG_LEVEL = "INFO" }
+
+[config]
+domain = "healthcare"
+task_ids = ["task5_1", "task2_1", "task3_1", "task4_1", "task6_1"]
+
+mcp_server_url = "http://medagentbench.ddns.net:8002"
+fhir_api_base= "http://medagentbench.ddns.net:8080/fhir/"
