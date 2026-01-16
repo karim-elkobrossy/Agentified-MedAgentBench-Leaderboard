@@ -1,0 +1,291 @@
+{
+  "participants": {
+    "agent": "019bc282-671e-7731-9dd9-0d86d3d5a29e"
+  },
+  "results": [
+    {
+      "domain": "healthcare",
+      "total_tasks": 25,
+      "correct_count": 24,
+      "pass_rate": 96.0,
+      "task_results": {
+        "task1_1": {
+          "task_id": "task1_1",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S6534835\"]",
+          "expected_answer": [
+            "S6534835"
+          ],
+          "time_used": 16.42937159538269,
+          "rounds": 1
+        },
+        "task1_2": {
+          "task_id": "task1_2",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S6426560\"]",
+          "expected_answer": [
+            "S6426560"
+          ],
+          "time_used": 21.43448567390442,
+          "rounds": 1
+        },
+        "task1_3": {
+          "task_id": "task1_3",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"Patient not found\"]",
+          "expected_answer": [
+            "S1986380"
+          ],
+          "time_used": 7.075291156768799,
+          "rounds": 1
+        },
+        "task1_4": {
+          "task_id": "task1_4",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S6484983\"]",
+          "expected_answer": [
+            "S6484983"
+          ],
+          "time_used": 13.874561071395874,
+          "rounds": 1
+        },
+        "task1_5": {
+          "task_id": "task1_5",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S2703270\"]",
+          "expected_answer": [
+            "S2703270"
+          ],
+          "time_used": 12.329683065414429,
+          "rounds": 1
+        },
+        "task1_6": {
+          "task_id": "task1_6",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S2874099\"]",
+          "expected_answer": [
+            "S2874099"
+          ],
+          "time_used": 14.308978796005249,
+          "rounds": 1
+        },
+        "task1_7": {
+          "task_id": "task1_7",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S6200102\"]",
+          "expected_answer": [
+            "S6200102"
+          ],
+          "time_used": 18.890571355819702,
+          "rounds": 1
+        },
+        "task1_8": {
+          "task_id": "task1_8",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S6530532\"]",
+          "expected_answer": [
+            "S6530532"
+          ],
+          "time_used": 14.929445266723633,
+          "rounds": 1
+        },
+        "task1_9": {
+          "task_id": "task1_9",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S6539215\"]",
+          "expected_answer": [
+            "S6539215"
+          ],
+          "time_used": 18.023138523101807,
+          "rounds": 1
+        },
+        "task1_10": {
+          "task_id": "task1_10",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S6264184\"]",
+          "expected_answer": [
+            "S6264184"
+          ],
+          "time_used": 11.229090452194214,
+          "rounds": 1
+        },
+        "task1_11": {
+          "task_id": "task1_11",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S6521727\"]",
+          "expected_answer": [
+            "S6521727"
+          ],
+          "time_used": 9.030552625656128,
+          "rounds": 1
+        },
+        "task1_12": {
+          "task_id": "task1_12",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S0789363\"]",
+          "expected_answer": [
+            "S0789363"
+          ],
+          "time_used": 11.792612791061401,
+          "rounds": 1
+        },
+        "task1_13": {
+          "task_id": "task1_13",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S2154941\"]",
+          "expected_answer": [
+            "S2154941"
+          ],
+          "time_used": 11.369735956192017,
+          "rounds": 1
+        },
+        "task1_14": {
+          "task_id": "task1_14",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S2197736\"]",
+          "expected_answer": [
+            "S2197736"
+          ],
+          "time_used": 11.291168689727783,
+          "rounds": 1
+        },
+        "task1_15": {
+          "task_id": "task1_15",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S3228213\"]",
+          "expected_answer": [
+            "S3228213"
+          ],
+          "time_used": 8.278082370758057,
+          "rounds": 1
+        },
+        "task1_16": {
+          "task_id": "task1_16",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S6551923\"]",
+          "expected_answer": [
+            "S6551923"
+          ],
+          "time_used": 16.799618005752563,
+          "rounds": 1
+        },
+        "task1_17": {
+          "task_id": "task1_17",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S2119664\"]",
+          "expected_answer": [
+            "S2119664"
+          ],
+          "time_used": 16.48117423057556,
+          "rounds": 1
+        },
+        "task1_18": {
+          "task_id": "task1_18",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S2863714\"]",
+          "expected_answer": [
+            "S2863714"
+          ],
+          "time_used": 16.823174715042114,
+          "rounds": 1
+        },
+        "task1_19": {
+          "task_id": "task1_19",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S6192632\"]",
+          "expected_answer": [
+            "S6192632"
+          ],
+          "time_used": 11.530259132385254,
+          "rounds": 1
+        },
+        "task1_20": {
+          "task_id": "task1_20",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S0658561\"]",
+          "expected_answer": [
+            "S0658561"
+          ],
+          "time_used": 8.086733102798462,
+          "rounds": 1
+        },
+        "task1_21": {
+          "task_id": "task1_21",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S0547588\"]",
+          "expected_answer": [
+            "S0547588"
+          ],
+          "time_used": 8.029142141342163,
+          "rounds": 1
+        },
+        "task1_22": {
+          "task_id": "task1_22",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S0722219\"]",
+          "expected_answer": [
+            "S0722219"
+          ],
+          "time_used": 11.271764039993286,
+          "rounds": 1
+        },
+        "task1_23": {
+          "task_id": "task1_23",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S3057899\"]",
+          "expected_answer": [
+            "S3057899"
+          ],
+          "time_used": 15.412687540054321,
+          "rounds": 1
+        },
+        "task1_24": {
+          "task_id": "task1_24",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S6538722\"]",
+          "expected_answer": [
+            "S6538722"
+          ],
+          "time_used": 9.527424335479736,
+          "rounds": 1
+        },
+        "task1_25": {
+          "task_id": "task1_25",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S6545016\"]",
+          "expected_answer": [
+            "S6545016"
+          ],
+          "time_used": 19.116910934448242,
+          "rounds": 1
+        }
+      },
+      "time_used": 333.36908769607544
+    }
+  ]
+}
