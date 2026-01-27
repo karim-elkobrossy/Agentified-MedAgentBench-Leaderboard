@@ -9,19 +9,22 @@ env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", LOG_LEVEL = "INFO" }
 
 [config]
 domain = "healthcare"
-task_ids = [
-  "task1_1","task1_2",
-  "task2_1","task2_2",
-  "task3_1","task3_2",
-  "task4_1","task4_2",
-  "task5_1","task5_2",
-  "task6_1","task6_2",
-  "task7_1","task7_2",
-  "task8_1","task8_2",
-  "task9_1","task9_2",
-  "task10_1","task10_2"
-]
-
+num_tasks = 1
+#task_ids = [
+#  "task1_1"
+#  "task2_1"
+#  "task3_1"
+#  "task4_1"
+#  "task5_1"
+#  "task6_1"
+#  "task7_1"
+#  "task8_1"
+#  "task9_1"
+#  "task10_1"
+#]
+MCP_FHIR_API_BASE=http://medagentbench.ddns.net:8080/fhir/
+MCP_SERVER_URL=http://medagentbench.ddns.net:8002
+MEDAGENT_OUTPUT_DIR=output
 # Multi-Worker Parallel Execution Configuration
 # Number of agent worker processes to spawn for true parallelism.
 num_workers=1
