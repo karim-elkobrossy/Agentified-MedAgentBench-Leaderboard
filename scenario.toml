@@ -22,6 +22,6 @@ task_ids = [
   "task10_1","task10_2"
 ]
 
-
-mcp_server_url = "http://medagentbench.ddns.net:8002"
-fhir_api_base= "http://medagentbench.ddns.net:8080/fhir/"
+# Multi-Worker Parallel Execution Configuration
+# Number of agent worker processes to spawn for true parallelism.
+num_workers=1
