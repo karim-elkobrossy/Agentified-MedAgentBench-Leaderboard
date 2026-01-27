@@ -22,9 +22,10 @@ num_tasks = 1
 #  "task9_1"
 #  "task10_1"
 #]
-MCP_FHIR_API_BASE=http://medagentbench.ddns.net:8080/fhir/
-MCP_SERVER_URL=http://medagentbench.ddns.net:8002
-MEDAGENT_OUTPUT_DIR=output
+
+MCP_FHIR_API_BASE="http://medagentbench.ddns.net:8080/fhir/"
+MCP_SERVER_URL="http://medagentbench.ddns.net:8002"
+MEDAGENT_OUTPUT_DIR="outputs/medagentbench"
 # Multi-Worker Parallel Execution Configuration
 # Number of agent worker processes to spawn for true parallelism.
 num_workers=1
