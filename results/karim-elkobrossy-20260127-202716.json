@@ -1,0 +1,39 @@
+{
+  "participants": {
+    "agent": "019bc282-671e-7731-9dd9-0d86d3d5a29e"
+  },
+  "results": [
+    {
+      "domain": "healthcare",
+      "total_tasks": 1,
+      "correct_count": 0,
+      "pass_rate": 0.0,
+      "failure_breakdown": {
+        "max_rounds_reached": 100.0
+      },
+      "min_rounds": 10,
+      "max_rounds": 10,
+      "avg_rounds": 10.0,
+      "avg_tools_called": 10.0,
+      "task_results": {
+        "task1_1": {
+          "task_id": "task1_1",
+          "correct": false,
+          "status": "max_rounds_reached",
+          "agent_answer": "[\"Unable to complete task within maximum iterations\"]",
+          "expected_answer": [
+            "S6534835"
+          ],
+          "time_used": 14.053452730178833,
+          "rounds": 10,
+          "tools_called": 10,
+          "primary_failure": "max_rounds_reached",
+          "failure_details": [
+            "max_iterations_exceeded"
+          ]
+        }
+      },
+      "time_used": 14.528350114822388
+    }
+  ]
+}
