@@ -1,0 +1,67 @@
+{
+  "participants": {
+    "agent": "019bc282-671e-7731-9dd9-0d86d3d5a29e"
+  },
+  "results": [
+    {
+      "domain": "healthcare",
+      "total_tasks": 3,
+      "correct_count": 2,
+      "pass_rate": 66.66666666666666,
+      "failure_breakdown": {
+        "answer_mismatch": 100.0
+      },
+      "min_rounds": 2,
+      "max_rounds": 8,
+      "avg_rounds": 4.0,
+      "avg_tools_called": 3.0,
+      "task_results": {
+        "task1_1": {
+          "task_id": "task1_1",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"Patient not found\"]",
+          "expected_answer": [
+            "S6534835"
+          ],
+          "time_used": 4.281576633453369,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task1_2": {
+          "task_id": "task1_2",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S6426560\"]",
+          "expected_answer": [
+            "S6426560"
+          ],
+          "time_used": 13.150605916976929,
+          "rounds": 8,
+          "tools_called": 7,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_3": {
+          "task_id": "task1_3",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S1986380\"]",
+          "expected_answer": [
+            "S1986380"
+          ],
+          "time_used": 2.0762264728546143,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        }
+      },
+      "time_used": 19.538002729415894
+    }
+  ]
+}
