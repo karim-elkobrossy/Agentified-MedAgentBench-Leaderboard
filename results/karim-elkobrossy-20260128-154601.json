@@ -1,0 +1,81 @@
+{
+  "participants": {
+    "agent": "019bc282-671e-7731-9dd9-0d86d3d5a29e"
+  },
+  "results": [
+    {
+      "domain": "healthcare",
+      "total_tasks": 4,
+      "correct_count": 3,
+      "pass_rate": 75.0,
+      "failure_breakdown": {
+        "max_rounds_reached": 100.0
+      },
+      "min_rounds": 2,
+      "max_rounds": 10,
+      "avg_rounds": 4.25,
+      "avg_tools_called": 3.5,
+      "task_results": {
+        "task1_1": {
+          "task_id": "task1_1",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S6534835\"]",
+          "expected_answer": [
+            "S6534835"
+          ],
+          "time_used": 5.582715272903442,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_2": {
+          "task_id": "task1_2",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S6426560\"]",
+          "expected_answer": [
+            "S6426560"
+          ],
+          "time_used": 2.28096604347229,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_3": {
+          "task_id": "task1_3",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S1986380\"]",
+          "expected_answer": [
+            "S1986380"
+          ],
+          "time_used": 2.3269879817962646,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_4": {
+          "task_id": "task1_4",
+          "correct": false,
+          "status": "max_rounds_reached",
+          "agent_answer": "[\"Unable to complete task within maximum iterations\"]",
+          "expected_answer": [
+            "S6484983"
+          ],
+          "time_used": 10.625584602355957,
+          "rounds": 10,
+          "tools_called": 10,
+          "primary_failure": "max_rounds_reached",
+          "failure_details": [
+            "max_iterations_exceeded"
+          ]
+        }
+      },
+      "time_used": 21.0515878200531
+    }
+  ]
+}
