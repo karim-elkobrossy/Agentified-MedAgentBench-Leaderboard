@@ -1,0 +1,704 @@
+{
+  "participants": {
+    "agent": "019bc282-671e-7731-9dd9-0d86d3d5a29e"
+  },
+  "results": [
+    {
+      "domain": "healthcare",
+      "total_tasks": 50,
+      "correct_count": 17,
+      "pass_rate": 34.0,
+      "failure_breakdown": {
+        "max_rounds_reached": 42.42424242424242,
+        "wrong_post_count": 18.181818181818183,
+        "wrong_endpoint": 15.151515151515152,
+        "readonly_violation": 9.090909090909092,
+        "answer_mismatch": 12.121212121212121,
+        "invalid_json_result": 3.0303030303030303
+      },
+      "min_rounds": 2,
+      "max_rounds": 10,
+      "avg_rounds": 5.44,
+      "avg_tools_called": 5.28,
+      "task_results": {
+        "task1_1": {
+          "task_id": "task1_1",
+          "correct": false,
+          "status": "max_rounds_reached",
+          "agent_answer": "[\"Unable to complete task within maximum iterations\"]",
+          "expected_answer": [
+            "S6534835"
+          ],
+          "time_used": 35.20310950279236,
+          "rounds": 10,
+          "tools_called": 12,
+          "primary_failure": "max_rounds_reached",
+          "failure_details": [
+            "max_iterations_exceeded"
+          ]
+        },
+        "task1_2": {
+          "task_id": "task1_2",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S6426560\"]",
+          "expected_answer": [
+            "S6426560"
+          ],
+          "time_used": 1.9158697128295898,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_3": {
+          "task_id": "task1_3",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S1986380\"]",
+          "expected_answer": [
+            "S1986380"
+          ],
+          "time_used": 4.65365743637085,
+          "rounds": 4,
+          "tools_called": 3,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_4": {
+          "task_id": "task1_4",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S6484983\"]",
+          "expected_answer": [
+            "S6484983"
+          ],
+          "time_used": 3.76804256439209,
+          "rounds": 4,
+          "tools_called": 3,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_5": {
+          "task_id": "task1_5",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S2703270\"]",
+          "expected_answer": [
+            "S2703270"
+          ],
+          "time_used": 2.791398286819458,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_1": {
+          "task_id": "task2_1",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[60]",
+          "expected_answer": null,
+          "time_used": 2.973789930343628,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_2": {
+          "task_id": "task2_2",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[80]",
+          "expected_answer": null,
+          "time_used": 5.5467140674591064,
+          "rounds": 4,
+          "tools_called": 3,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_3": {
+          "task_id": "task2_3",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[68]",
+          "expected_answer": null,
+          "time_used": 2.897460699081421,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_4": {
+          "task_id": "task2_4",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[55]",
+          "expected_answer": null,
+          "time_used": 4.580784559249878,
+          "rounds": 4,
+          "tools_called": 3,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_5": {
+          "task_id": "task2_5",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[67]",
+          "expected_answer": null,
+          "time_used": 3.6244430541992188,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task3_1": {
+          "task_id": "task3_1",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"Blood pressure recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 6.742544174194336,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": "wrong_post_count",
+          "failure_details": [
+            "wrong_number_of_posts"
+          ]
+        },
+        "task3_2": {
+          "task_id": "task3_2",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"Blood pressure recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 5.84179162979126,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": "wrong_post_count",
+          "failure_details": [
+            "wrong_number_of_posts"
+          ]
+        },
+        "task3_3": {
+          "task_id": "task3_3",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"Blood pressure recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 3.227963924407959,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": "wrong_endpoint",
+          "failure_details": [
+            "wrong_fhir_endpoint"
+          ]
+        },
+        "task3_4": {
+          "task_id": "task3_4",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "['Blood pressure recorded successfully.']",
+          "expected_answer": null,
+          "time_used": 3.4674859046936035,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": "wrong_endpoint",
+          "failure_details": [
+            "wrong_fhir_endpoint"
+          ]
+        },
+        "task3_5": {
+          "task_id": "task3_5",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "['Blood pressure recorded successfully.']",
+          "expected_answer": null,
+          "time_used": 3.0208284854888916,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": "wrong_endpoint",
+          "failure_details": [
+            "wrong_fhir_endpoint"
+          ]
+        },
+        "task4_1": {
+          "task_id": "task4_1",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 10.363672494888306,
+          "rounds": 7,
+          "tools_called": 6,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task4_2": {
+          "task_id": "task4_2",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 5.124605894088745,
+          "rounds": 4,
+          "tools_called": 4,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task4_3": {
+          "task_id": "task4_3",
+          "correct": false,
+          "status": "max_rounds_reached",
+          "agent_answer": "[\"Unable to complete task within maximum iterations\"]",
+          "expected_answer": null,
+          "time_used": 15.999447345733643,
+          "rounds": 10,
+          "tools_called": 10,
+          "primary_failure": "max_rounds_reached",
+          "failure_details": [
+            "max_iterations_exceeded"
+          ]
+        },
+        "task4_4": {
+          "task_id": "task4_4",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 4.888153076171875,
+          "rounds": 3,
+          "tools_called": 3,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task4_5": {
+          "task_id": "task4_5",
+          "correct": false,
+          "status": "max_rounds_reached",
+          "agent_answer": "[\"Unable to complete task within maximum iterations\"]",
+          "expected_answer": null,
+          "time_used": 15.844377994537354,
+          "rounds": 10,
+          "tools_called": 10,
+          "primary_failure": "max_rounds_reached",
+          "failure_details": [
+            "max_iterations_exceeded"
+          ]
+        },
+        "task5_1": {
+          "task_id": "task5_1",
+          "correct": false,
+          "status": "max_rounds_reached",
+          "agent_answer": "[\"Unable to complete task within maximum iterations\"]",
+          "expected_answer": null,
+          "time_used": 15.612025022506714,
+          "rounds": 10,
+          "tools_called": 10,
+          "primary_failure": "max_rounds_reached",
+          "failure_details": [
+            "max_iterations_exceeded"
+          ]
+        },
+        "task5_2": {
+          "task_id": "task5_2",
+          "correct": false,
+          "status": "max_rounds_reached",
+          "agent_answer": "[\"Unable to complete task within maximum iterations\"]",
+          "expected_answer": null,
+          "time_used": 18.3778874874115,
+          "rounds": 10,
+          "tools_called": 10,
+          "primary_failure": "max_rounds_reached",
+          "failure_details": [
+            "max_iterations_exceeded"
+          ]
+        },
+        "task5_3": {
+          "task_id": "task5_3",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[2.0]",
+          "expected_answer": null,
+          "time_used": 9.03121542930603,
+          "rounds": 5,
+          "tools_called": 4,
+          "primary_failure": "readonly_violation",
+          "failure_details": [
+            "made_post_on_readonly"
+          ]
+        },
+        "task5_4": {
+          "task_id": "task5_4",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 13.65410828590393,
+          "rounds": 9,
+          "tools_called": 9,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task5_5": {
+          "task_id": "task5_5",
+          "correct": false,
+          "status": "max_rounds_reached",
+          "agent_answer": "[\"Unable to complete task within maximum iterations\"]",
+          "expected_answer": null,
+          "time_used": 15.66693663597107,
+          "rounds": 10,
+          "tools_called": 12,
+          "primary_failure": "max_rounds_reached",
+          "failure_details": [
+            "max_iterations_exceeded"
+          ]
+        },
+        "task6_1": {
+          "task_id": "task6_1",
+          "correct": false,
+          "status": "max_rounds_reached",
+          "agent_answer": "[\"Unable to complete task within maximum iterations\"]",
+          "expected_answer": null,
+          "time_used": 18.314072608947754,
+          "rounds": 10,
+          "tools_called": 12,
+          "primary_failure": "max_rounds_reached",
+          "failure_details": [
+            "max_iterations_exceeded"
+          ]
+        },
+        "task6_2": {
+          "task_id": "task6_2",
+          "correct": false,
+          "status": "max_rounds_reached",
+          "agent_answer": "[\"Unable to complete task within maximum iterations\"]",
+          "expected_answer": null,
+          "time_used": 14.638086080551147,
+          "rounds": 10,
+          "tools_called": 12,
+          "primary_failure": "max_rounds_reached",
+          "failure_details": [
+            "max_iterations_exceeded"
+          ]
+        },
+        "task6_3": {
+          "task_id": "task6_3",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 18.14625310897827,
+          "rounds": 9,
+          "tools_called": 13,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task6_4": {
+          "task_id": "task6_4",
+          "correct": false,
+          "status": "max_rounds_reached",
+          "agent_answer": "[\"Unable to complete task within maximum iterations\"]",
+          "expected_answer": null,
+          "time_used": 15.09248161315918,
+          "rounds": 10,
+          "tools_called": 10,
+          "primary_failure": "max_rounds_reached",
+          "failure_details": [
+            "max_iterations_exceeded"
+          ]
+        },
+        "task6_5": {
+          "task_id": "task6_5",
+          "correct": false,
+          "status": "max_rounds_reached",
+          "agent_answer": "[\"Unable to complete task within maximum iterations\"]",
+          "expected_answer": null,
+          "time_used": 15.50890302658081,
+          "rounds": 10,
+          "tools_called": 11,
+          "primary_failure": "max_rounds_reached",
+          "failure_details": [
+            "max_iterations_exceeded"
+          ]
+        },
+        "task7_1": {
+          "task_id": "task7_1",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[191.0]",
+          "expected_answer": null,
+          "time_used": 3.2777984142303467,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task7_2": {
+          "task_id": "task7_2",
+          "correct": false,
+          "status": "max_rounds_reached",
+          "agent_answer": "[\"Unable to complete task within maximum iterations\"]",
+          "expected_answer": null,
+          "time_used": 17.039532899856567,
+          "rounds": 10,
+          "tools_called": 11,
+          "primary_failure": "max_rounds_reached",
+          "failure_details": [
+            "max_iterations_exceeded"
+          ]
+        },
+        "task7_3": {
+          "task_id": "task7_3",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[134.0]",
+          "expected_answer": null,
+          "time_used": 6.513901472091675,
+          "rounds": 4,
+          "tools_called": 4,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task7_4": {
+          "task_id": "task7_4",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[215.0]",
+          "expected_answer": null,
+          "time_used": 3.7181951999664307,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task7_5": {
+          "task_id": "task7_5",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[134.0]",
+          "expected_answer": null,
+          "time_used": 2.067091464996338,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task8_1": {
+          "task_id": "task8_1",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "['Order recorded successfully.']",
+          "expected_answer": null,
+          "time_used": 5.6632654666900635,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": "wrong_post_count",
+          "failure_details": [
+            "wrong_number_of_posts"
+          ]
+        },
+        "task8_2": {
+          "task_id": "task8_2",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "['Order recorded successfully.']",
+          "expected_answer": null,
+          "time_used": 3.547262191772461,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": "wrong_endpoint",
+          "failure_details": [
+            "wrong_fhir_endpoint"
+          ]
+        },
+        "task8_3": {
+          "task_id": "task8_3",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"Order recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 5.395802974700928,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": "wrong_endpoint",
+          "failure_details": [
+            "wrong_fhir_endpoint"
+          ]
+        },
+        "task8_4": {
+          "task_id": "task8_4",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "['Order recorded successfully.']",
+          "expected_answer": null,
+          "time_used": 6.238933324813843,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": "wrong_post_count",
+          "failure_details": [
+            "wrong_number_of_posts"
+          ]
+        },
+        "task8_5": {
+          "task_id": "task8_5",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"Order recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 11.637949228286743,
+          "rounds": 5,
+          "tools_called": 4,
+          "primary_failure": "wrong_post_count",
+          "failure_details": [
+            "wrong_number_of_posts"
+          ]
+        },
+        "task9_1": {
+          "task_id": "task9_1",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "['No order placed.']",
+          "expected_answer": null,
+          "time_used": 3.0738470554351807,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": "invalid_json_result",
+          "failure_details": [
+            "invalid_json"
+          ]
+        },
+        "task9_2": {
+          "task_id": "task9_2",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"No order placed.\"]",
+          "expected_answer": null,
+          "time_used": 6.738768815994263,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task9_3": {
+          "task_id": "task9_3",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "['Order recorded successfully.']",
+          "expected_answer": null,
+          "time_used": 21.259917974472046,
+          "rounds": 6,
+          "tools_called": 8,
+          "primary_failure": "wrong_post_count",
+          "failure_details": [
+            "wrong_number_of_posts"
+          ]
+        },
+        "task9_4": {
+          "task_id": "task9_4",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"No order placed.\"]",
+          "expected_answer": null,
+          "time_used": 3.2570197582244873,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task9_5": {
+          "task_id": "task9_5",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"No order placed.\"]",
+          "expected_answer": null,
+          "time_used": 9.091874599456787,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task10_1": {
+          "task_id": "task10_1",
+          "correct": false,
+          "status": "max_rounds_reached",
+          "agent_answer": "[\"Unable to complete task within maximum iterations\"]",
+          "expected_answer": null,
+          "time_used": 16.187453031539917,
+          "rounds": 10,
+          "tools_called": 10,
+          "primary_failure": "max_rounds_reached",
+          "failure_details": [
+            "max_iterations_exceeded"
+          ]
+        },
+        "task10_2": {
+          "task_id": "task10_2",
+          "correct": false,
+          "status": "max_rounds_reached",
+          "agent_answer": "[\"Unable to complete task within maximum iterations\"]",
+          "expected_answer": null,
+          "time_used": 20.82409644126892,
+          "rounds": 10,
+          "tools_called": 14,
+          "primary_failure": "max_rounds_reached",
+          "failure_details": [
+            "max_iterations_exceeded"
+          ]
+        },
+        "task10_3": {
+          "task_id": "task10_3",
+          "correct": false,
+          "status": "max_rounds_reached",
+          "agent_answer": "[\"Unable to complete task within maximum iterations\"]",
+          "expected_answer": null,
+          "time_used": 14.787824392318726,
+          "rounds": 10,
+          "tools_called": 11,
+          "primary_failure": "max_rounds_reached",
+          "failure_details": [
+            "max_iterations_exceeded"
+          ]
+        },
+        "task10_4": {
+          "task_id": "task10_4",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[5.4, \"2023-08-01T20:29:00+00:00\"]",
+          "expected_answer": null,
+          "time_used": 6.318575859069824,
+          "rounds": 4,
+          "tools_called": 3,
+          "primary_failure": "readonly_violation",
+          "failure_details": [
+            "made_post_on_readonly"
+          ]
+        },
+        "task10_5": {
+          "task_id": "task10_5",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[6.6,\"2023-11-04T14:54:00+00:00\"]",
+          "expected_answer": null,
+          "time_used": 7.447355031967163,
+          "rounds": 4,
+          "tools_called": 4,
+          "primary_failure": "readonly_violation",
+          "failure_details": [
+            "made_post_on_readonly"
+          ]
+        }
+      },
+      "time_used": 470.649617433548
+    }
+  ]
+}
