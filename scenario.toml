@@ -12,21 +12,21 @@ domain = "healthcare"
 fhir_api_base = "http://medagentbench.ddns.net:8080/fhir/"
 mcp_server_url = "http://medagentbench.ddns.net:8002"
 
-#num_tasks = 10
+num_tasks = 330
 
-task_ids = [
-  "task1_1",
-  "task2_1", 
-  "task3_1", 
-  "task4_1", 
-  "task5_1",
-  "task6_1",
-  "task7_1",
-  "task8_1", 
-  "task9_1",
-  "task10_1",
-  "task11_1"
-]
+#task_ids = [
+  #"task1_1",
+  #"task2_1", 
+  #"task3_1", 
+  #"task4_1", 
+  #"task5_1",
+  #"task6_1",
+  #"task7_1",
+  #"task8_1", 
+  #"task9_1",
+  #"task10_1",
+  #"task11_1"
+#]
 
 # Multi-Worker Parallel Execution Configuration.
 # Number of agent worker processes to spawn for true parallelism.
