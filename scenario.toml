@@ -12,7 +12,7 @@ domain = "healthcare"
 fhir_api_base = "http://medagentbench.ddns.net:8080/fhir/"
 mcp_server_url = "http://medagentbench.ddns.net:8002"
 
-#num_tasks = 4
+#num_tasks = 11
 
 task_ids = [
   "task1_1",
