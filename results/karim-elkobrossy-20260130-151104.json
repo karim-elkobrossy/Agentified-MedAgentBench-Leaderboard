@@ -1,0 +1,181 @@
+{
+  "participants": {
+    "agent": "019bc282-671e-7731-9dd9-0d86d3d5a29e"
+  },
+  "results": [
+    {
+      "domain": "healthcare",
+      "total_tasks": 11,
+      "correct_count": 0,
+      "pass_rate": 0.0,
+      "failure_breakdown": {
+        "answer_mismatch": 63.63636363636363,
+        "wrong_post_count": 27.27272727272727,
+        "invalid_json_result": 9.090909090909092
+      },
+      "min_rounds": 1,
+      "max_rounds": 1,
+      "avg_rounds": 1.0,
+      "avg_tools_called": 0.0,
+      "task_results": {
+        "task1_1": {
+          "task_id": "task1_1",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"ERROR: mcp_connection_failed - unhandled errors in a TaskGroup (1 sub-exception)\"]",
+          "expected_answer": [
+            "S6534835"
+          ],
+          "time_used": 4.750931024551392,
+          "rounds": 1,
+          "tools_called": 0,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task2_1": {
+          "task_id": "task2_1",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"ERROR: mcp_connection_failed - unhandled errors in a TaskGroup (1 sub-exception)\"]",
+          "expected_answer": null,
+          "time_used": 3.718221426010132,
+          "rounds": 1,
+          "tools_called": 0,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task3_1": {
+          "task_id": "task3_1",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"ERROR: mcp_connection_failed - unhandled errors in a TaskGroup (1 sub-exception)\"]",
+          "expected_answer": null,
+          "time_used": 3.4481616020202637,
+          "rounds": 1,
+          "tools_called": 0,
+          "primary_failure": "wrong_post_count",
+          "failure_details": [
+            "wrong_number_of_posts"
+          ]
+        },
+        "task4_1": {
+          "task_id": "task4_1",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"ERROR: mcp_connection_failed - unhandled errors in a TaskGroup (1 sub-exception)\"]",
+          "expected_answer": null,
+          "time_used": 4.225524425506592,
+          "rounds": 1,
+          "tools_called": 0,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task5_1": {
+          "task_id": "task5_1",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"ERROR: mcp_connection_failed - unhandled errors in a TaskGroup (1 sub-exception)\"]",
+          "expected_answer": null,
+          "time_used": 2.4669206142425537,
+          "rounds": 1,
+          "tools_called": 0,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task6_1": {
+          "task_id": "task6_1",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"ERROR: mcp_connection_failed - unhandled errors in a TaskGroup (1 sub-exception)\"]",
+          "expected_answer": null,
+          "time_used": 4.101186513900757,
+          "rounds": 1,
+          "tools_called": 0,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task7_1": {
+          "task_id": "task7_1",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"ERROR: mcp_connection_failed - unhandled errors in a TaskGroup (1 sub-exception)\"]",
+          "expected_answer": null,
+          "time_used": 2.611955165863037,
+          "rounds": 1,
+          "tools_called": 0,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task8_1": {
+          "task_id": "task8_1",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"ERROR: mcp_connection_failed - unhandled errors in a TaskGroup (1 sub-exception)\"]",
+          "expected_answer": null,
+          "time_used": 2.246176242828369,
+          "rounds": 1,
+          "tools_called": 0,
+          "primary_failure": "wrong_post_count",
+          "failure_details": [
+            "wrong_number_of_posts"
+          ]
+        },
+        "task9_1": {
+          "task_id": "task9_1",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"ERROR: mcp_connection_failed - unhandled errors in a TaskGroup (1 sub-exception)\"]",
+          "expected_answer": null,
+          "time_used": 3.2573628425598145,
+          "rounds": 1,
+          "tools_called": 0,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task10_1": {
+          "task_id": "task10_1",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"ERROR: mcp_connection_failed - unhandled errors in a TaskGroup (1 sub-exception)\"]",
+          "expected_answer": null,
+          "time_used": 2.8413896560668945,
+          "rounds": 1,
+          "tools_called": 0,
+          "primary_failure": "wrong_post_count",
+          "failure_details": [
+            "wrong_number_of_posts"
+          ]
+        },
+        "task11_1": {
+          "task_id": "task11_1",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"ERROR: mcp_connection_failed - unhandled errors in a TaskGroup (1 sub-exception)\"]",
+          "expected_answer": null,
+          "time_used": 3.7856783866882324,
+          "rounds": 1,
+          "tools_called": 0,
+          "primary_failure": "invalid_json_result",
+          "failure_details": [
+            "missing_required_field"
+          ]
+        }
+      },
+      "time_used": 37.581791400909424
+    }
+  ]
+}
