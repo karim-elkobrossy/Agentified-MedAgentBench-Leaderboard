@@ -25,7 +25,8 @@ num_tasks = 330
   #"task8_1", 
   #"task9_1",
   #"task10_1",
-  #"task11_1"
+  #"task11_1",
+  #"task11_2"
 #]
 
 # Multi-Worker Parallel Execution Configuration.
