@@ -1,0 +1,172 @@
+{
+  "participants": {
+    "agent": "019bc282-671e-7731-9dd9-0d86d3d5a29e"
+  },
+  "results": [
+    {
+      "domain": "healthcare",
+      "total_tasks": 11,
+      "correct_count": 4,
+      "pass_rate": 36.36363636363637,
+      "failure_breakdown": {
+        "wrong_post_count": 28.57142857142857,
+        "answer_mismatch": 71.42857142857143
+      },
+      "min_rounds": 1,
+      "max_rounds": 4,
+      "avg_rounds": 1.91,
+      "avg_tools_called": 1.09,
+      "task_results": {
+        "task1_1": {
+          "task_id": "task1_1",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S6534835\"]",
+          "expected_answer": [
+            "S6534835"
+          ],
+          "time_used": 5.791735887527466,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_1": {
+          "task_id": "task2_1",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[60]",
+          "expected_answer": null,
+          "time_used": 6.9814839363098145,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task3_1": {
+          "task_id": "task3_1",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"ERROR: mcp_connection_failed - unhandled errors in a TaskGroup (1 sub-exception)\"]",
+          "expected_answer": null,
+          "time_used": 4.13349986076355,
+          "rounds": 1,
+          "tools_called": 0,
+          "primary_failure": "wrong_post_count",
+          "failure_details": [
+            "wrong_number_of_posts"
+          ]
+        },
+        "task4_1": {
+          "task_id": "task4_1",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"ERROR: mcp_connection_failed - unhandled errors in a TaskGroup (1 sub-exception)\"]",
+          "expected_answer": null,
+          "time_used": 5.551597595214844,
+          "rounds": 1,
+          "tools_called": 0,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task5_1": {
+          "task_id": "task5_1",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"ERROR: mcp_connection_failed - unhandled errors in a TaskGroup (1 sub-exception)\"]",
+          "expected_answer": null,
+          "time_used": 3.1439521312713623,
+          "rounds": 1,
+          "tools_called": 0,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task6_1": {
+          "task_id": "task6_1",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"ERROR: mcp_connection_failed - unhandled errors in a TaskGroup (1 sub-exception)\"]",
+          "expected_answer": null,
+          "time_used": 14.666860818862915,
+          "rounds": 1,
+          "tools_called": 0,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task7_1": {
+          "task_id": "task7_1",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[123]",
+          "expected_answer": null,
+          "time_used": 55.12408947944641,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task8_1": {
+          "task_id": "task8_1",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"ERROR: mcp_connection_failed - unhandled errors in a TaskGroup (1 sub-exception)\"]",
+          "expected_answer": null,
+          "time_used": 6.899591684341431,
+          "rounds": 1,
+          "tools_called": 0,
+          "primary_failure": "wrong_post_count",
+          "failure_details": [
+            "wrong_number_of_posts"
+          ]
+        },
+        "task9_1": {
+          "task_id": "task9_1",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"ERROR: mcp_connection_failed - unhandled errors in a TaskGroup (1 sub-exception)\"]",
+          "expected_answer": null,
+          "time_used": 64.36038017272949,
+          "rounds": 1,
+          "tools_called": 0,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task10_1": {
+          "task_id": "task10_1",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 6.546074151992798,
+          "rounds": 4,
+          "tools_called": 3,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task11_1": {
+          "task_id": "task11_1",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"LOW\", 0, 34, 6.2, 0.0]",
+          "expected_answer": null,
+          "time_used": 11.543623924255371,
+          "rounds": 4,
+          "tools_called": 5,
+          "primary_failure": null,
+          "failure_details": null
+        }
+      },
+      "time_used": 184.9212818145752
+    }
+  ]
+}
