@@ -1,0 +1,4177 @@
+{
+  "participants": {
+    "agent": "019bc282-671e-7731-9dd9-0d86d3d5a29e"
+  },
+  "results": [
+    {
+      "domain": "healthcare",
+      "total_tasks": 330,
+      "correct_count": 276,
+      "pass_rate": 83.63636363636363,
+      "failure_breakdown": {
+        "answer_mismatch": 72.22222222222221,
+        "max_rounds_reached": 7.4074074074074066,
+        "payload_validation_error": 5.555555555555555,
+        "wrong_post_count": 7.4074074074074066,
+        "invalid_finish_format": 5.555555555555555,
+        "readonly_violation": 1.8518518518518516
+      },
+      "min_rounds": 2,
+      "max_rounds": 10,
+      "avg_rounds": 2.94,
+      "avg_tools_called": 2.09,
+      "task_results": {
+        "task1_1": {
+          "task_id": "task1_1",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S6534835\"]",
+          "expected_answer": [
+            "S6534835"
+          ],
+          "time_used": 5.175219297409058,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_2": {
+          "task_id": "task1_2",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S6426560\"]",
+          "expected_answer": [
+            "S6426560"
+          ],
+          "time_used": 6.131222248077393,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_3": {
+          "task_id": "task1_3",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S1986380\"]",
+          "expected_answer": [
+            "S1986380"
+          ],
+          "time_used": 4.241238117218018,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_4": {
+          "task_id": "task1_4",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S6484983\"]",
+          "expected_answer": [
+            "S6484983"
+          ],
+          "time_used": 3.7704615592956543,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_5": {
+          "task_id": "task1_5",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S2703270\"]",
+          "expected_answer": [
+            "S2703270"
+          ],
+          "time_used": 2.524348497390747,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_6": {
+          "task_id": "task1_6",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S2874099\"]",
+          "expected_answer": [
+            "S2874099"
+          ],
+          "time_used": 3.99947452545166,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_7": {
+          "task_id": "task1_7",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S6200102\"]",
+          "expected_answer": [
+            "S6200102"
+          ],
+          "time_used": 2.139356851577759,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_8": {
+          "task_id": "task1_8",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S6530532\"]",
+          "expected_answer": [
+            "S6530532"
+          ],
+          "time_used": 2.0262277126312256,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_9": {
+          "task_id": "task1_9",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S6539215\"]",
+          "expected_answer": [
+            "S6539215"
+          ],
+          "time_used": 2.3290891647338867,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_10": {
+          "task_id": "task1_10",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S6264184\"]",
+          "expected_answer": [
+            "S6264184"
+          ],
+          "time_used": 1.9480421543121338,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_11": {
+          "task_id": "task1_11",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S6521727\"]",
+          "expected_answer": [
+            "S6521727"
+          ],
+          "time_used": 2.728459119796753,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_12": {
+          "task_id": "task1_12",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S0789363\"]",
+          "expected_answer": [
+            "S0789363"
+          ],
+          "time_used": 4.16832423210144,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_13": {
+          "task_id": "task1_13",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S2154941\"]",
+          "expected_answer": [
+            "S2154941"
+          ],
+          "time_used": 1.8558955192565918,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_14": {
+          "task_id": "task1_14",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S2197736\"]",
+          "expected_answer": [
+            "S2197736"
+          ],
+          "time_used": 4.386950969696045,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_15": {
+          "task_id": "task1_15",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S3228213\"]",
+          "expected_answer": [
+            "S3228213"
+          ],
+          "time_used": 2.028559684753418,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_16": {
+          "task_id": "task1_16",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S6551923\"]",
+          "expected_answer": [
+            "S6551923"
+          ],
+          "time_used": 2.4521849155426025,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_17": {
+          "task_id": "task1_17",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S2119664\"]",
+          "expected_answer": [
+            "S2119664"
+          ],
+          "time_used": 2.0746817588806152,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_18": {
+          "task_id": "task1_18",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S2863714\"]",
+          "expected_answer": [
+            "S2863714"
+          ],
+          "time_used": 3.866697311401367,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_19": {
+          "task_id": "task1_19",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"Patient not found\"]",
+          "expected_answer": [
+            "S6192632"
+          ],
+          "time_used": 5.365793228149414,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task1_20": {
+          "task_id": "task1_20",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S0658561\"]",
+          "expected_answer": [
+            "S0658561"
+          ],
+          "time_used": 4.565821170806885,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_21": {
+          "task_id": "task1_21",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S0547588\"]",
+          "expected_answer": [
+            "S0547588"
+          ],
+          "time_used": 2.37542462348938,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_22": {
+          "task_id": "task1_22",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S0722219\"]",
+          "expected_answer": [
+            "S0722219"
+          ],
+          "time_used": 2.665160894393921,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_23": {
+          "task_id": "task1_23",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S3057899\"]",
+          "expected_answer": [
+            "S3057899"
+          ],
+          "time_used": 1.7952125072479248,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_24": {
+          "task_id": "task1_24",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S6538722\"]",
+          "expected_answer": [
+            "S6538722"
+          ],
+          "time_used": 2.1827335357666016,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_25": {
+          "task_id": "task1_25",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S6545016\"]",
+          "expected_answer": [
+            "S6545016"
+          ],
+          "time_used": 2.673384189605713,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_26": {
+          "task_id": "task1_26",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S3236936\"]",
+          "expected_answer": [
+            "S3236936"
+          ],
+          "time_used": 1.841299295425415,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_27": {
+          "task_id": "task1_27",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S3213957\"]",
+          "expected_answer": [
+            "S3213957"
+          ],
+          "time_used": 4.378990411758423,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_28": {
+          "task_id": "task1_28",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"S2704870\"]",
+          "expected_answer": [
+            "S2704870"
+          ],
+          "time_used": 2.955838441848755,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_29": {
+          "task_id": "task1_29",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"Patient not found\"]",
+          "expected_answer": [
+            "Patient not found"
+          ],
+          "time_used": 1.9847278594970703,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task1_30": {
+          "task_id": "task1_30",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"Patient not found\"]",
+          "expected_answer": [
+            "Patient not found"
+          ],
+          "time_used": 2.3977761268615723,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_1": {
+          "task_id": "task2_1",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[60]",
+          "expected_answer": null,
+          "time_used": 3.7735886573791504,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_2": {
+          "task_id": "task2_2",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[80]",
+          "expected_answer": null,
+          "time_used": 3.6797378063201904,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_3": {
+          "task_id": "task2_3",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[68]",
+          "expected_answer": null,
+          "time_used": 3.1775259971618652,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_4": {
+          "task_id": "task2_4",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[55]",
+          "expected_answer": null,
+          "time_used": 3.3809382915496826,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_5": {
+          "task_id": "task2_5",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[67]",
+          "expected_answer": null,
+          "time_used": 5.730682849884033,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_6": {
+          "task_id": "task2_6",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[39]",
+          "expected_answer": null,
+          "time_used": 9.070225715637207,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_7": {
+          "task_id": "task2_7",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[72]",
+          "expected_answer": null,
+          "time_used": 4.772083282470703,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_8": {
+          "task_id": "task2_8",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[89]",
+          "expected_answer": null,
+          "time_used": 3.126319408416748,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_9": {
+          "task_id": "task2_9",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[48]",
+          "expected_answer": null,
+          "time_used": 3.6935794353485107,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_10": {
+          "task_id": "task2_10",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[79]",
+          "expected_answer": null,
+          "time_used": 2.5249805450439453,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_11": {
+          "task_id": "task2_11",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[44]",
+          "expected_answer": null,
+          "time_used": 3.1538026332855225,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_12": {
+          "task_id": "task2_12",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[90]",
+          "expected_answer": null,
+          "time_used": 3.0858943462371826,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_13": {
+          "task_id": "task2_13",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[81]",
+          "expected_answer": null,
+          "time_used": 3.331768035888672,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_14": {
+          "task_id": "task2_14",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[75]",
+          "expected_answer": null,
+          "time_used": 2.7408435344696045,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_15": {
+          "task_id": "task2_15",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[86]",
+          "expected_answer": null,
+          "time_used": 2.7621164321899414,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_16": {
+          "task_id": "task2_16",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[66]",
+          "expected_answer": null,
+          "time_used": 2.795401096343994,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_17": {
+          "task_id": "task2_17",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[76]",
+          "expected_answer": null,
+          "time_used": 2.608821153640747,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_18": {
+          "task_id": "task2_18",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[84]",
+          "expected_answer": null,
+          "time_used": 5.650026321411133,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_19": {
+          "task_id": "task2_19",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[28]",
+          "expected_answer": null,
+          "time_used": 3.1913952827453613,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_20": {
+          "task_id": "task2_20",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[67]",
+          "expected_answer": null,
+          "time_used": 3.650224208831787,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_21": {
+          "task_id": "task2_21",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[63]",
+          "expected_answer": null,
+          "time_used": 3.013413190841675,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_22": {
+          "task_id": "task2_22",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[82]",
+          "expected_answer": null,
+          "time_used": 2.847050666809082,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_23": {
+          "task_id": "task2_23",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[62]",
+          "expected_answer": null,
+          "time_used": 3.232428789138794,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_24": {
+          "task_id": "task2_24",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[54]",
+          "expected_answer": null,
+          "time_used": 2.7819409370422363,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_25": {
+          "task_id": "task2_25",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[51]",
+          "expected_answer": null,
+          "time_used": 3.606926441192627,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_26": {
+          "task_id": "task2_26",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[69]",
+          "expected_answer": null,
+          "time_used": 2.560859203338623,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_27": {
+          "task_id": "task2_27",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[70]",
+          "expected_answer": null,
+          "time_used": 3.4293372631073,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_28": {
+          "task_id": "task2_28",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[50]",
+          "expected_answer": null,
+          "time_used": 2.806569814682007,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_29": {
+          "task_id": "task2_29",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[62]",
+          "expected_answer": null,
+          "time_used": 2.644362211227417,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task2_30": {
+          "task_id": "task2_30",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[80]",
+          "expected_answer": null,
+          "time_used": 3.8630411624908447,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task3_1": {
+          "task_id": "task3_1",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"Blood pressure recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 3.275284767150879,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task3_2": {
+          "task_id": "task3_2",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"Blood pressure recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 4.09044337272644,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task3_3": {
+          "task_id": "task3_3",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"Blood pressure recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 4.634538650512695,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task3_4": {
+          "task_id": "task3_4",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"Blood pressure recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 4.0164854526519775,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task3_5": {
+          "task_id": "task3_5",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"Blood pressure recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 3.6483194828033447,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task3_6": {
+          "task_id": "task3_6",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"Blood pressure recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 8.872844457626343,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task3_7": {
+          "task_id": "task3_7",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"Blood pressure recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 5.335388422012329,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task3_8": {
+          "task_id": "task3_8",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"Blood pressure recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 4.74210262298584,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task3_9": {
+          "task_id": "task3_9",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"Blood pressure recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 4.350621700286865,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task3_10": {
+          "task_id": "task3_10",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"Blood pressure recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 3.2406749725341797,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task3_11": {
+          "task_id": "task3_11",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"Blood pressure recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 3.8669650554656982,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task3_12": {
+          "task_id": "task3_12",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"Blood pressure recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 5.357718229293823,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task3_13": {
+          "task_id": "task3_13",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"Blood pressure recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 3.0191736221313477,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task3_14": {
+          "task_id": "task3_14",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"Blood pressure recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 3.3297781944274902,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task3_15": {
+          "task_id": "task3_15",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"Blood pressure recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 3.6200990676879883,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task3_16": {
+          "task_id": "task3_16",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"Blood pressure recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 3.5960354804992676,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task3_17": {
+          "task_id": "task3_17",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"Blood pressure recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 4.406147480010986,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task3_18": {
+          "task_id": "task3_18",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"Blood pressure recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 10.410321950912476,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task3_19": {
+          "task_id": "task3_19",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"Blood pressure recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 4.7780091762542725,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task3_20": {
+          "task_id": "task3_20",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"Blood pressure recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 3.597494602203369,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task3_21": {
+          "task_id": "task3_21",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"Blood pressure recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 9.362619161605835,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task3_22": {
+          "task_id": "task3_22",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"Blood pressure recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 13.390652418136597,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task3_23": {
+          "task_id": "task3_23",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"Blood pressure recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 4.469797372817993,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task3_24": {
+          "task_id": "task3_24",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"Blood pressure recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 4.393847942352295,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task3_25": {
+          "task_id": "task3_25",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"Blood pressure recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 3.3173205852508545,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task3_26": {
+          "task_id": "task3_26",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"Blood pressure recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 3.473435878753662,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task3_27": {
+          "task_id": "task3_27",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"Blood pressure recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 3.8121347427368164,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task3_28": {
+          "task_id": "task3_28",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"Blood pressure recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 4.032328128814697,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task3_29": {
+          "task_id": "task3_29",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"Blood pressure recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 3.700064182281494,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task3_30": {
+          "task_id": "task3_30",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"Blood pressure recorded successfully.\"]",
+          "expected_answer": null,
+          "time_used": 4.720380544662476,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task4_1": {
+          "task_id": "task4_1",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 10.54508352279663,
+          "rounds": 7,
+          "tools_called": 6,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task4_2": {
+          "task_id": "task4_2",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 1.9455130100250244,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task4_3": {
+          "task_id": "task4_3",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[2.7]",
+          "expected_answer": null,
+          "time_used": 4.778223514556885,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task4_4": {
+          "task_id": "task4_4",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 3.045281171798706,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task4_5": {
+          "task_id": "task4_5",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[2.1]",
+          "expected_answer": null,
+          "time_used": 6.206853866577148,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task4_6": {
+          "task_id": "task4_6",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 12.05795693397522,
+          "rounds": 4,
+          "tools_called": 3,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task4_7": {
+          "task_id": "task4_7",
+          "correct": false,
+          "status": "max_rounds_reached",
+          "agent_answer": "[\"Unable to complete task within maximum iterations\"]",
+          "expected_answer": null,
+          "time_used": 59.341015338897705,
+          "rounds": 10,
+          "tools_called": 10,
+          "primary_failure": "max_rounds_reached",
+          "failure_details": [
+            "max_iterations_exceeded"
+          ]
+        },
+        "task4_8": {
+          "task_id": "task4_8",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 3.2332773208618164,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task4_9": {
+          "task_id": "task4_9",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 1.5305850505828857,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task4_10": {
+          "task_id": "task4_10",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 3.844378709793091,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task4_11": {
+          "task_id": "task4_11",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 2.455509662628174,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task4_12": {
+          "task_id": "task4_12",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 3.5570058822631836,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task4_13": {
+          "task_id": "task4_13",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[2.2]",
+          "expected_answer": null,
+          "time_used": 2.348463535308838,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task4_14": {
+          "task_id": "task4_14",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 6.448549509048462,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task4_15": {
+          "task_id": "task4_15",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[2.2]",
+          "expected_answer": null,
+          "time_used": 3.2373390197753906,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task4_16": {
+          "task_id": "task4_16",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 3.6065444946289062,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task4_17": {
+          "task_id": "task4_17",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[2.1]",
+          "expected_answer": null,
+          "time_used": 11.622719287872314,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task4_18": {
+          "task_id": "task4_18",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 5.208523273468018,
+          "rounds": 3,
+          "tools_called": 3,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task4_19": {
+          "task_id": "task4_19",
+          "correct": false,
+          "status": "max_rounds_reached",
+          "agent_answer": "[\"Unable to complete task within maximum iterations\"]",
+          "expected_answer": null,
+          "time_used": 14.263283967971802,
+          "rounds": 10,
+          "tools_called": 10,
+          "primary_failure": "max_rounds_reached",
+          "failure_details": [
+            "max_iterations_exceeded"
+          ]
+        },
+        "task4_20": {
+          "task_id": "task4_20",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[2.0]",
+          "expected_answer": null,
+          "time_used": 3.575113296508789,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task4_21": {
+          "task_id": "task4_21",
+          "correct": false,
+          "status": "max_rounds_reached",
+          "agent_answer": "[\"Unable to complete task within maximum iterations\"]",
+          "expected_answer": null,
+          "time_used": 57.24252915382385,
+          "rounds": 10,
+          "tools_called": 10,
+          "primary_failure": "max_rounds_reached",
+          "failure_details": [
+            "max_iterations_exceeded"
+          ]
+        },
+        "task4_22": {
+          "task_id": "task4_22",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 2.1408181190490723,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task4_23": {
+          "task_id": "task4_23",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[1.6]",
+          "expected_answer": null,
+          "time_used": 4.531180381774902,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task4_24": {
+          "task_id": "task4_24",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 1.9672629833221436,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task4_25": {
+          "task_id": "task4_25",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[2.0]",
+          "expected_answer": null,
+          "time_used": 3.340543746948242,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task4_26": {
+          "task_id": "task4_26",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[2.5]",
+          "expected_answer": null,
+          "time_used": 3.4336330890655518,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task4_27": {
+          "task_id": "task4_27",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[1.8]",
+          "expected_answer": null,
+          "time_used": 14.49954104423523,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task4_28": {
+          "task_id": "task4_28",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[2.1]",
+          "expected_answer": null,
+          "time_used": 8.187800884246826,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task4_29": {
+          "task_id": "task4_29",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 15.404568195343018,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task4_30": {
+          "task_id": "task4_30",
+          "correct": false,
+          "status": "max_rounds_reached",
+          "agent_answer": "[\"Unable to complete task within maximum iterations\"]",
+          "expected_answer": null,
+          "time_used": 23.96801519393921,
+          "rounds": 10,
+          "tools_called": 10,
+          "primary_failure": "max_rounds_reached",
+          "failure_details": [
+            "max_iterations_exceeded"
+          ]
+        },
+        "task5_1": {
+          "task_id": "task5_1",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 2.6972708702087402,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task5_2": {
+          "task_id": "task5_2",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 2.225649833679199,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task5_3": {
+          "task_id": "task5_3",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[2.0]",
+          "expected_answer": null,
+          "time_used": 3.1142449378967285,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task5_4": {
+          "task_id": "task5_4",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 2.117999792098999,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task5_5": {
+          "task_id": "task5_5",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 2.8284671306610107,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task5_6": {
+          "task_id": "task5_6",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[2.1]",
+          "expected_answer": null,
+          "time_used": 3.656205177307129,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task5_7": {
+          "task_id": "task5_7",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[2.1]",
+          "expected_answer": null,
+          "time_used": 3.0222928524017334,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task5_8": {
+          "task_id": "task5_8",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 2.4100565910339355,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task5_9": {
+          "task_id": "task5_9",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 4.443102598190308,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task5_10": {
+          "task_id": "task5_10",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[2.0]",
+          "expected_answer": null,
+          "time_used": 4.321703672409058,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task5_11": {
+          "task_id": "task5_11",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[2.1]",
+          "expected_answer": null,
+          "time_used": 3.9607138633728027,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task5_12": {
+          "task_id": "task5_12",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 1.8451523780822754,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task5_13": {
+          "task_id": "task5_13",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 2.3091330528259277,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task5_14": {
+          "task_id": "task5_14",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[2.1]",
+          "expected_answer": null,
+          "time_used": 2.596911668777466,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task5_15": {
+          "task_id": "task5_15",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 2.1470894813537598,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task5_16": {
+          "task_id": "task5_16",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[2.0]",
+          "expected_answer": null,
+          "time_used": 3.2458508014678955,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task5_17": {
+          "task_id": "task5_17",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[2.3]",
+          "expected_answer": null,
+          "time_used": 2.7456300258636475,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task5_18": {
+          "task_id": "task5_18",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[2.0]",
+          "expected_answer": null,
+          "time_used": 3.6603760719299316,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task5_19": {
+          "task_id": "task5_19",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[2.2]",
+          "expected_answer": null,
+          "time_used": 3.766355514526367,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task5_20": {
+          "task_id": "task5_20",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 2.294483184814453,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task5_21": {
+          "task_id": "task5_21",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[1.8]",
+          "expected_answer": null,
+          "time_used": 5.911985397338867,
+          "rounds": 4,
+          "tools_called": 3,
+          "primary_failure": "payload_validation_error",
+          "failure_details": [
+            "wrong_authored_on",
+            "wrong_route",
+            "wrong_dose_value",
+            "wrong_rate_value"
+          ]
+        },
+        "task5_22": {
+          "task_id": "task5_22",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 2.539700746536255,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task5_23": {
+          "task_id": "task5_23",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 2.4214794635772705,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task5_24": {
+          "task_id": "task5_24",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 2.5878803730010986,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task5_25": {
+          "task_id": "task5_25",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[1.9]",
+          "expected_answer": null,
+          "time_used": 3.193758249282837,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": "wrong_post_count",
+          "failure_details": [
+            "wrong_number_of_posts"
+          ]
+        },
+        "task5_26": {
+          "task_id": "task5_26",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 2.3626794815063477,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task5_27": {
+          "task_id": "task5_27",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[2.7]",
+          "expected_answer": null,
+          "time_used": 3.0163896083831787,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task5_28": {
+          "task_id": "task5_28",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[2.0]",
+          "expected_answer": null,
+          "time_used": 3.1148529052734375,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task5_29": {
+          "task_id": "task5_29",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 2.5983147621154785,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task5_30": {
+          "task_id": "task5_30",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 2.2187721729278564,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task6_1": {
+          "task_id": "task6_1",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[97.0]",
+          "expected_answer": null,
+          "time_used": 5.371114730834961,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task6_2": {
+          "task_id": "task6_2",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[90.0]",
+          "expected_answer": null,
+          "time_used": 2.9684815406799316,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task6_3": {
+          "task_id": "task6_3",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[100.0]",
+          "expected_answer": null,
+          "time_used": 3.490056276321411,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task6_4": {
+          "task_id": "task6_4",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[89.89]",
+          "expected_answer": null,
+          "time_used": 3.757411479949951,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task6_5": {
+          "task_id": "task6_5",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[93.0]",
+          "expected_answer": null,
+          "time_used": 3.5254831314086914,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task6_6": {
+          "task_id": "task6_6",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[100.0]",
+          "expected_answer": null,
+          "time_used": 4.698782205581665,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task6_7": {
+          "task_id": "task6_7",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[123.0]",
+          "expected_answer": null,
+          "time_used": 3.306520462036133,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task6_8": {
+          "task_id": "task6_8",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[115.0]",
+          "expected_answer": null,
+          "time_used": 2.964064598083496,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task6_9": {
+          "task_id": "task6_9",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[108.0]",
+          "expected_answer": null,
+          "time_used": 3.255476236343384,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task6_10": {
+          "task_id": "task6_10",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[161.8]",
+          "expected_answer": null,
+          "time_used": 3.4560863971710205,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task6_11": {
+          "task_id": "task6_11",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[118.0]",
+          "expected_answer": null,
+          "time_used": 3.7454726696014404,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task6_12": {
+          "task_id": "task6_12",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[188.0]",
+          "expected_answer": null,
+          "time_used": 3.9487404823303223,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task6_13": {
+          "task_id": "task6_13",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[122.11111111111111]",
+          "expected_answer": null,
+          "time_used": 5.942828178405762,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task6_14": {
+          "task_id": "task6_14",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 1.963463544845581,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task6_15": {
+          "task_id": "task6_15",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 2.3230762481689453,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task6_16": {
+          "task_id": "task6_16",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[90.0]",
+          "expected_answer": null,
+          "time_used": 3.5774636268615723,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task6_17": {
+          "task_id": "task6_17",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[105.0]",
+          "expected_answer": null,
+          "time_used": 4.0155863761901855,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task6_18": {
+          "task_id": "task6_18",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[127.0]",
+          "expected_answer": null,
+          "time_used": 3.320800542831421,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task6_19": {
+          "task_id": "task6_19",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[87.0]",
+          "expected_answer": null,
+          "time_used": 3.1240530014038086,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task6_20": {
+          "task_id": "task6_20",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[168.86]",
+          "expected_answer": null,
+          "time_used": 3.89997935295105,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task6_21": {
+          "task_id": "task6_21",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[102.0]",
+          "expected_answer": null,
+          "time_used": 3.3140158653259277,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task6_22": {
+          "task_id": "task6_22",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[97.0]",
+          "expected_answer": null,
+          "time_used": 3.4903061389923096,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task6_23": {
+          "task_id": "task6_23",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[89.67]",
+          "expected_answer": null,
+          "time_used": 3.423297166824341,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task6_24": {
+          "task_id": "task6_24",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[90.0]",
+          "expected_answer": null,
+          "time_used": 3.317251682281494,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task6_25": {
+          "task_id": "task6_25",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[94.33333333333333]",
+          "expected_answer": null,
+          "time_used": 4.032783269882202,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task6_26": {
+          "task_id": "task6_26",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[104.0]",
+          "expected_answer": null,
+          "time_used": 3.0811824798583984,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task6_27": {
+          "task_id": "task6_27",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[245.0]",
+          "expected_answer": null,
+          "time_used": 5.377755403518677,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task6_28": {
+          "task_id": "task6_28",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[108.0]",
+          "expected_answer": null,
+          "time_used": 6.128668785095215,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task6_29": {
+          "task_id": "task6_29",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[166.0]",
+          "expected_answer": null,
+          "time_used": 4.450563907623291,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task6_30": {
+          "task_id": "task6_30",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[126.0]",
+          "expected_answer": null,
+          "time_used": 3.40826678276062,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task7_1": {
+          "task_id": "task7_1",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[123.0]",
+          "expected_answer": null,
+          "time_used": 4.631511688232422,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task7_2": {
+          "task_id": "task7_2",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[87.0]",
+          "expected_answer": null,
+          "time_used": 1.9141030311584473,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task7_3": {
+          "task_id": "task7_3",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[134.0]",
+          "expected_answer": null,
+          "time_used": 4.835971355438232,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task7_4": {
+          "task_id": "task7_4",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[215.0]",
+          "expected_answer": null,
+          "time_used": 3.0391530990600586,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task7_5": {
+          "task_id": "task7_5",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[134.0]",
+          "expected_answer": null,
+          "time_used": 3.3507580757141113,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task7_6": {
+          "task_id": "task7_6",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[73.0]",
+          "expected_answer": null,
+          "time_used": 2.2212369441986084,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task7_7": {
+          "task_id": "task7_7",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[110.0]",
+          "expected_answer": null,
+          "time_used": 2.221290111541748,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task7_8": {
+          "task_id": "task7_8",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[97.0]",
+          "expected_answer": null,
+          "time_used": 3.3079705238342285,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task7_9": {
+          "task_id": "task7_9",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[109.0]",
+          "expected_answer": null,
+          "time_used": 2.8184385299682617,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task7_10": {
+          "task_id": "task7_10",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[112.0]",
+          "expected_answer": null,
+          "time_used": 3.769749879837036,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task7_11": {
+          "task_id": "task7_11",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[107.0]",
+          "expected_answer": null,
+          "time_used": 2.5692813396453857,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task7_12": {
+          "task_id": "task7_12",
+          "correct": false,
+          "status": "agent_invalid_action",
+          "agent_answer": "The most recent CBG (Capillary Blood Glucose) for patient S1891852 is 79 mg/dL, measured on 2023-11-13T06:31:00+00:00.",
+          "expected_answer": null,
+          "time_used": 9.993342399597168,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": "invalid_finish_format",
+          "failure_details": [
+            "no_finish_format"
+          ]
+        },
+        "task7_13": {
+          "task_id": "task7_13",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[161]",
+          "expected_answer": null,
+          "time_used": 4.9584410190582275,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task7_14": {
+          "task_id": "task7_14",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[90.0]",
+          "expected_answer": null,
+          "time_used": 10.63149642944336,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task7_15": {
+          "task_id": "task7_15",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[81]",
+          "expected_answer": null,
+          "time_used": 7.49206805229187,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task7_16": {
+          "task_id": "task7_16",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[{\"value\":141.0,\"unit\":\"mg/dL\",\"effectiveDateTime\":\"2023-11-12T13:35:00+00:00\"}]",
+          "expected_answer": null,
+          "time_used": 6.559925079345703,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task7_17": {
+          "task_id": "task7_17",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[107.0]",
+          "expected_answer": null,
+          "time_used": 2.823237895965576,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task7_18": {
+          "task_id": "task7_18",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[94.0]",
+          "expected_answer": null,
+          "time_used": 3.2638847827911377,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task7_19": {
+          "task_id": "task7_19",
+          "correct": false,
+          "status": "agent_invalid_action",
+          "agent_answer": "The most recent CBG of the patient S6426560 is 190 mg/dL, recorded on 2023-11-13T07:49:00+00:00.",
+          "expected_answer": null,
+          "time_used": 10.86729645729065,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": "invalid_finish_format",
+          "failure_details": [
+            "no_finish_format"
+          ]
+        },
+        "task7_20": {
+          "task_id": "task7_20",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[79.0]",
+          "expected_answer": null,
+          "time_used": 3.6251556873321533,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task7_21": {
+          "task_id": "task7_21",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[108.0]",
+          "expected_answer": null,
+          "time_used": 2.400242567062378,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task7_22": {
+          "task_id": "task7_22",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[111.0]",
+          "expected_answer": null,
+          "time_used": 2.1389682292938232,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task7_23": {
+          "task_id": "task7_23",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[102.0]",
+          "expected_answer": null,
+          "time_used": 5.55445671081543,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task7_24": {
+          "task_id": "task7_24",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[129.0]",
+          "expected_answer": null,
+          "time_used": 11.982829332351685,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task7_25": {
+          "task_id": "task7_25",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[109.0]",
+          "expected_answer": null,
+          "time_used": 2.5194242000579834,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task7_26": {
+          "task_id": "task7_26",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[132]",
+          "expected_answer": null,
+          "time_used": 4.6804540157318115,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task7_27": {
+          "task_id": "task7_27",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[94.0]",
+          "expected_answer": null,
+          "time_used": 5.370463132858276,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task7_28": {
+          "task_id": "task7_28",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[140.0]",
+          "expected_answer": null,
+          "time_used": 3.381334066390991,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task7_29": {
+          "task_id": "task7_29",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[110.0]",
+          "expected_answer": null,
+          "time_used": 3.6340951919555664,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task7_30": {
+          "task_id": "task7_30",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[94]",
+          "expected_answer": null,
+          "time_used": 16.300150632858276,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task8_1": {
+          "task_id": "task8_1",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 3.926133632659912,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task8_2": {
+          "task_id": "task8_2",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 3.299229621887207,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task8_3": {
+          "task_id": "task8_3",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 3.5496232509613037,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task8_4": {
+          "task_id": "task8_4",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 3.715074062347412,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task8_5": {
+          "task_id": "task8_5",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 3.364643096923828,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task8_6": {
+          "task_id": "task8_6",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 3.4635584354400635,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task8_7": {
+          "task_id": "task8_7",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 3.9956605434417725,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task8_8": {
+          "task_id": "task8_8",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 6.3944079875946045,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task8_9": {
+          "task_id": "task8_9",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 3.0861382484436035,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task8_10": {
+          "task_id": "task8_10",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 5.542760372161865,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": "wrong_post_count",
+          "failure_details": [
+            "wrong_number_of_posts"
+          ]
+        },
+        "task8_11": {
+          "task_id": "task8_11",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 4.350947856903076,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task8_12": {
+          "task_id": "task8_12",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 2.650278329849243,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task8_13": {
+          "task_id": "task8_13",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 2.85858416557312,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task8_14": {
+          "task_id": "task8_14",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 2.730814218521118,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task8_15": {
+          "task_id": "task8_15",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 3.114975929260254,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task8_16": {
+          "task_id": "task8_16",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 2.6974611282348633,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task8_17": {
+          "task_id": "task8_17",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 2.7654151916503906,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task8_18": {
+          "task_id": "task8_18",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 2.683438301086426,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task8_19": {
+          "task_id": "task8_19",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 4.778554916381836,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task8_20": {
+          "task_id": "task8_20",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 6.118434190750122,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task8_21": {
+          "task_id": "task8_21",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 3.371127128601074,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task8_22": {
+          "task_id": "task8_22",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 2.926358938217163,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task8_23": {
+          "task_id": "task8_23",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 2.6969640254974365,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task8_24": {
+          "task_id": "task8_24",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 2.4560065269470215,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task8_25": {
+          "task_id": "task8_25",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 3.223766565322876,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task8_26": {
+          "task_id": "task8_26",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 3.0498173236846924,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task8_27": {
+          "task_id": "task8_27",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 3.3747799396514893,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task8_28": {
+          "task_id": "task8_28",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 5.285857677459717,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": "wrong_post_count",
+          "failure_details": [
+            "wrong_number_of_posts"
+          ]
+        },
+        "task8_29": {
+          "task_id": "task8_29",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 4.827869176864624,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task8_30": {
+          "task_id": "task8_30",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 3.763416051864624,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task9_1": {
+          "task_id": "task9_1",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 7.561048984527588,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task9_2": {
+          "task_id": "task9_2",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 4.7186057567596436,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task9_3": {
+          "task_id": "task9_3",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 9.482557773590088,
+          "rounds": 4,
+          "tools_called": 4,
+          "primary_failure": "payload_validation_error",
+          "failure_details": [
+            "wrong_dose_value"
+          ]
+        },
+        "task9_4": {
+          "task_id": "task9_4",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 4.97042441368103,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task9_5": {
+          "task_id": "task9_5",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 8.13258147239685,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task9_6": {
+          "task_id": "task9_6",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 3.558558940887451,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task9_7": {
+          "task_id": "task9_7",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 5.940740346908569,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task9_8": {
+          "task_id": "task9_8",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 4.124478578567505,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task9_9": {
+          "task_id": "task9_9",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 18.089919328689575,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task9_10": {
+          "task_id": "task9_10",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 3.189702272415161,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task9_11": {
+          "task_id": "task9_11",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 9.590542078018188,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task9_12": {
+          "task_id": "task9_12",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 9.11328411102295,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task9_13": {
+          "task_id": "task9_13",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 6.897996425628662,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task9_14": {
+          "task_id": "task9_14",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 6.011795520782471,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task9_15": {
+          "task_id": "task9_15",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 10.138688325881958,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task9_16": {
+          "task_id": "task9_16",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 4.923462390899658,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task9_17": {
+          "task_id": "task9_17",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 5.5590291023254395,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task9_18": {
+          "task_id": "task9_18",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 5.46854043006897,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task9_19": {
+          "task_id": "task9_19",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 4.207574367523193,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task9_20": {
+          "task_id": "task9_20",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 9.725502490997314,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task9_21": {
+          "task_id": "task9_21",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 15.58849573135376,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task9_22": {
+          "task_id": "task9_22",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 2.727010488510132,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task9_23": {
+          "task_id": "task9_23",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 16.491146087646484,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task9_24": {
+          "task_id": "task9_24",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 2.8523313999176025,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task9_25": {
+          "task_id": "task9_25",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 11.883150815963745,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task9_26": {
+          "task_id": "task9_26",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 3.202674150466919,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task9_27": {
+          "task_id": "task9_27",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 3.0846035480499268,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task9_28": {
+          "task_id": "task9_28",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 4.107279300689697,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task9_29": {
+          "task_id": "task9_29",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 6.283523321151733,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task9_30": {
+          "task_id": "task9_30",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[]",
+          "expected_answer": null,
+          "time_used": 4.894213438034058,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task10_1": {
+          "task_id": "task10_1",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 5.002455711364746,
+          "rounds": 4,
+          "tools_called": 3,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task10_2": {
+          "task_id": "task10_2",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[5.9, \"2023-11-09T03:05:00+00:00\"]",
+          "expected_answer": null,
+          "time_used": 4.543551445007324,
+          "rounds": 4,
+          "tools_called": 3,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task10_3": {
+          "task_id": "task10_3",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 4.2182440757751465,
+          "rounds": 4,
+          "tools_called": 3,
+          "primary_failure": "payload_validation_error",
+          "failure_details": [
+            "wrong_subject"
+          ]
+        },
+        "task10_4": {
+          "task_id": "task10_4",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[5.4, \"2023-08-01T20:29:00+00:00\"]",
+          "expected_answer": null,
+          "time_used": 4.662360191345215,
+          "rounds": 4,
+          "tools_called": 3,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task10_5": {
+          "task_id": "task10_5",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[6.6, \"2023-11-04T14:54:00+00:00\"]",
+          "expected_answer": null,
+          "time_used": 4.519601106643677,
+          "rounds": 4,
+          "tools_called": 3,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task10_6": {
+          "task_id": "task10_6",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 4.692228555679321,
+          "rounds": 4,
+          "tools_called": 3,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task10_7": {
+          "task_id": "task10_7",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 4.315814733505249,
+          "rounds": 4,
+          "tools_called": 3,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task10_8": {
+          "task_id": "task10_8",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[6.1, \"2023-10-13T22:22:00+00:00\"]",
+          "expected_answer": null,
+          "time_used": 4.663125276565552,
+          "rounds": 4,
+          "tools_called": 3,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task10_9": {
+          "task_id": "task10_9",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[5.5, \"2023-10-14T18:44:00+00:00\"]",
+          "expected_answer": null,
+          "time_used": 7.429981231689453,
+          "rounds": 4,
+          "tools_called": 4,
+          "primary_failure": "readonly_violation",
+          "failure_details": [
+            "made_post_on_readonly"
+          ]
+        },
+        "task10_10": {
+          "task_id": "task10_10",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 3.6684556007385254,
+          "rounds": 4,
+          "tools_called": 3,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task10_11": {
+          "task_id": "task10_11",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 4.58323860168457,
+          "rounds": 4,
+          "tools_called": 3,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task10_12": {
+          "task_id": "task10_12",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 5.2350780963897705,
+          "rounds": 4,
+          "tools_called": 3,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task10_13": {
+          "task_id": "task10_13",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[5.8, \"2022-09-09T15:33:00+00:00\"]",
+          "expected_answer": null,
+          "time_used": 6.51556396484375,
+          "rounds": 5,
+          "tools_called": 4,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task10_14": {
+          "task_id": "task10_14",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 5.999206066131592,
+          "rounds": 5,
+          "tools_called": 4,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "answer_value_mismatch"
+          ]
+        },
+        "task10_15": {
+          "task_id": "task10_15",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[5.7, \"2023-07-07T11:27:00+00:00\"]",
+          "expected_answer": null,
+          "time_used": 6.014061450958252,
+          "rounds": 4,
+          "tools_called": 3,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task10_16": {
+          "task_id": "task10_16",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 6.3798089027404785,
+          "rounds": 4,
+          "tools_called": 3,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task10_17": {
+          "task_id": "task10_17",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[5.0, \"2023-11-09T10:06:00+00:00\"]",
+          "expected_answer": null,
+          "time_used": 4.374460458755493,
+          "rounds": 4,
+          "tools_called": 3,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task10_18": {
+          "task_id": "task10_18",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[5.9, \"2023-11-12T06:19:00+00:00\"]",
+          "expected_answer": null,
+          "time_used": 4.54727578163147,
+          "rounds": 4,
+          "tools_called": 3,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task10_19": {
+          "task_id": "task10_19",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[5.9, \"2023-09-22T22:28:00+00:00\"]",
+          "expected_answer": null,
+          "time_used": 5.978971719741821,
+          "rounds": 4,
+          "tools_called": 3,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task10_20": {
+          "task_id": "task10_20",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[6.5, \"2022-03-08T08:14:00+00:00\"]",
+          "expected_answer": null,
+          "time_used": 5.126540899276733,
+          "rounds": 5,
+          "tools_called": 4,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task10_21": {
+          "task_id": "task10_21",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 4.607972860336304,
+          "rounds": 4,
+          "tools_called": 3,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task10_22": {
+          "task_id": "task10_22",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 7.471739768981934,
+          "rounds": 4,
+          "tools_called": 3,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task10_23": {
+          "task_id": "task10_23",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 4.977378845214844,
+          "rounds": 4,
+          "tools_called": 3,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task10_24": {
+          "task_id": "task10_24",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[5.2, \"2022-08-09T15:33:00+00:00\"]",
+          "expected_answer": null,
+          "time_used": 9.688423156738281,
+          "rounds": 5,
+          "tools_called": 4,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task10_25": {
+          "task_id": "task10_25",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 4.406116724014282,
+          "rounds": 4,
+          "tools_called": 3,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task10_26": {
+          "task_id": "task10_26",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[-1]",
+          "expected_answer": null,
+          "time_used": 7.8509016036987305,
+          "rounds": 5,
+          "tools_called": 4,
+          "primary_failure": "wrong_post_count",
+          "failure_details": [
+            "wrong_number_of_posts"
+          ]
+        },
+        "task10_27": {
+          "task_id": "task10_27",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[5.4, \"2023-11-02T06:53:00+00:00\"]",
+          "expected_answer": null,
+          "time_used": 4.204100131988525,
+          "rounds": 4,
+          "tools_called": 3,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task10_28": {
+          "task_id": "task10_28",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[7.4, \"2023-06-27T23:25:00+00:00\"]",
+          "expected_answer": null,
+          "time_used": 5.622321367263794,
+          "rounds": 4,
+          "tools_called": 3,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task10_29": {
+          "task_id": "task10_29",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[6.2, \"2023-11-09T00:17:00+00:00\"]",
+          "expected_answer": null,
+          "time_used": 4.342122554779053,
+          "rounds": 4,
+          "tools_called": 3,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task10_30": {
+          "task_id": "task10_30",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[8.3, \"2023-10-30T13:10:00+00:00\"]",
+          "expected_answer": null,
+          "time_used": 4.361405849456787,
+          "rounds": 4,
+          "tools_called": 3,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task11_1": {
+          "task_id": "task11_1",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"LOW\", 0, null, null, 0.0]",
+          "expected_answer": null,
+          "time_used": 3.201244354248047,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "missing_age",
+            "missing_a1c"
+          ]
+        },
+        "task11_2": {
+          "task_id": "task11_2",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"LOW\", 0, null, null, 0.0]",
+          "expected_answer": null,
+          "time_used": 2.4636809825897217,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "missing_age",
+            "missing_a1c"
+          ]
+        },
+        "task11_3": {
+          "task_id": "task11_3",
+          "correct": false,
+          "status": "agent_invalid_action",
+          "agent_answer": "I could not find an exact match for the patient \"Jonathan Jackson\" with the details provided in the database. Without identifying and verifying the specific patient based on given parameters, I'm unab",
+          "expected_answer": null,
+          "time_used": 5.386522531509399,
+          "rounds": 4,
+          "tools_called": 3,
+          "primary_failure": "invalid_finish_format",
+          "failure_details": [
+            "no_finish_format"
+          ]
+        },
+        "task11_4": {
+          "task_id": "task11_4",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"LOW\", 0, 36, 5.9, 6.2]",
+          "expected_answer": null,
+          "time_used": 7.815458297729492,
+          "rounds": 4,
+          "tools_called": 5,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task11_5": {
+          "task_id": "task11_5",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"MEDIUM\", 1, 36, 6.6, 0.0]",
+          "expected_answer": null,
+          "time_used": 12.038584470748901,
+          "rounds": 4,
+          "tools_called": 5,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task11_6": {
+          "task_id": "task11_6",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"LOW\", 0, 37, 6.9, 0.0]",
+          "expected_answer": null,
+          "time_used": 7.997431993484497,
+          "rounds": 4,
+          "tools_called": 5,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "wrong_risk_level",
+            "wrong_risk_score"
+          ]
+        },
+        "task11_7": {
+          "task_id": "task11_7",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"LOW\", 0, 0, null, 0.0]",
+          "expected_answer": null,
+          "time_used": 2.314537286758423,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "wrong_risk_level",
+            "wrong_risk_score",
+            "wrong_age",
+            "missing_a1c"
+          ]
+        },
+        "task11_8": {
+          "task_id": "task11_8",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"LOW\", 0, 37, 6.2, 12.5]",
+          "expected_answer": null,
+          "time_used": 6.41355299949646,
+          "rounds": 3,
+          "tools_called": 4,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task11_9": {
+          "task_id": "task11_9",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"LOW\", 0, 37, 5.9, 0.0]",
+          "expected_answer": null,
+          "time_used": 9.922260999679565,
+          "rounds": 5,
+          "tools_called": 6,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task11_10": {
+          "task_id": "task11_10",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"MEDIUM\", 1, 38, 6.2, 0.0]",
+          "expected_answer": null,
+          "time_used": 8.665745973587036,
+          "rounds": 7,
+          "tools_called": 7,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "wrong_risk_level",
+            "wrong_risk_score",
+            "wrong_a1c"
+          ]
+        },
+        "task11_11": {
+          "task_id": "task11_11",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"MEDIUM\", 1, 46, 6.5, 16.7]",
+          "expected_answer": null,
+          "time_used": 6.457310199737549,
+          "rounds": 4,
+          "tools_called": 5,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task11_12": {
+          "task_id": "task11_12",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"MEDIUM\", 1, 46, 6.5, 0.0]",
+          "expected_answer": null,
+          "time_used": 5.859037399291992,
+          "rounds": 4,
+          "tools_called": 5,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task11_13": {
+          "task_id": "task11_13",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"LOW\", 1, 47, 6.5, 0.0]",
+          "expected_answer": null,
+          "time_used": 7.489659786224365,
+          "rounds": 4,
+          "tools_called": 5,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "wrong_risk_level"
+          ]
+        },
+        "task11_14": {
+          "task_id": "task11_14",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"LOW\", 1, 47, 6.5, 25.0]",
+          "expected_answer": null,
+          "time_used": 8.709071636199951,
+          "rounds": 5,
+          "tools_called": 6,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "wrong_risk_level"
+          ]
+        },
+        "task11_15": {
+          "task_id": "task11_15",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"LOW\", 0, null, null, 0.0]",
+          "expected_answer": null,
+          "time_used": 2.8261754512786865,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "wrong_risk_level",
+            "wrong_risk_score",
+            "missing_age",
+            "missing_a1c"
+          ]
+        },
+        "task11_16": {
+          "task_id": "task11_16",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"MEDIUM\", 1, 47, 6.5, 0.0]",
+          "expected_answer": null,
+          "time_used": 6.635360240936279,
+          "rounds": 4,
+          "tools_called": 5,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task11_17": {
+          "task_id": "task11_17",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"MEDIUM\", 1, 47, 6.5, 25.0]",
+          "expected_answer": null,
+          "time_used": 5.678123474121094,
+          "rounds": 4,
+          "tools_called": 5,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task11_18": {
+          "task_id": "task11_18",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"MEDIUM\", 1, 47, 6.5, 0.0]",
+          "expected_answer": null,
+          "time_used": 5.432980060577393,
+          "rounds": 4,
+          "tools_called": 5,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task11_19": {
+          "task_id": "task11_19",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"HIGH\", 3, 47, 6.5, 85.7]",
+          "expected_answer": null,
+          "time_used": 7.543614387512207,
+          "rounds": 4,
+          "tools_called": 5,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "wrong_risk_score"
+          ]
+        },
+        "task11_20": {
+          "task_id": "task11_20",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"MEDIUM\", 1, 47, 6.5, 0.0]",
+          "expected_answer": null,
+          "time_used": 6.207897663116455,
+          "rounds": 4,
+          "tools_called": 5,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task11_21": {
+          "task_id": "task11_21",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"LOW\", 0, null, null, null]",
+          "expected_answer": null,
+          "time_used": 3.0565805435180664,
+          "rounds": 3,
+          "tools_called": 2,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "missing_age",
+            "missing_a1c",
+            "invalid_bp_pct"
+          ]
+        },
+        "task11_22": {
+          "task_id": "task11_22",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"LOW\", 0, 27, 5.2, 0.0]",
+          "expected_answer": null,
+          "time_used": 8.706269025802612,
+          "rounds": 4,
+          "tools_called": 5,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "wrong_a1c"
+          ]
+        },
+        "task11_23": {
+          "task_id": "task11_23",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"LOW\", 0, 27, null, 0.0]",
+          "expected_answer": null,
+          "time_used": 5.821443319320679,
+          "rounds": 5,
+          "tools_called": 6,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "missing_a1c"
+          ]
+        },
+        "task11_24": {
+          "task_id": "task11_24",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"LOW\", 0, 27, 4.5, 0.0]",
+          "expected_answer": null,
+          "time_used": 5.2922751903533936,
+          "rounds": 4,
+          "tools_called": 5,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task11_25": {
+          "task_id": "task11_25",
+          "correct": true,
+          "status": "completed",
+          "agent_answer": "[\"LOW\", 0, 27, 4.5, 0.0]",
+          "expected_answer": null,
+          "time_used": 5.593220472335815,
+          "rounds": 4,
+          "tools_called": 5,
+          "primary_failure": null,
+          "failure_details": null
+        },
+        "task11_26": {
+          "task_id": "task11_26",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"LOW\", 0, 27, null, 13.3]",
+          "expected_answer": null,
+          "time_used": 5.169601678848267,
+          "rounds": 4,
+          "tools_called": 5,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "missing_a1c"
+          ]
+        },
+        "task11_27": {
+          "task_id": "task11_27",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"LOW\", 0, 27, 5.2, 0.0]",
+          "expected_answer": null,
+          "time_used": 6.619814157485962,
+          "rounds": 4,
+          "tools_called": 5,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "wrong_a1c"
+          ]
+        },
+        "task11_28": {
+          "task_id": "task11_28",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"LOW\", 0, 0, null, 0.0]",
+          "expected_answer": null,
+          "time_used": 2.751718521118164,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "wrong_age",
+            "missing_a1c"
+          ]
+        },
+        "task11_29": {
+          "task_id": "task11_29",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"LOW\", 0, 0, null, 0.0]",
+          "expected_answer": null,
+          "time_used": 2.0630297660827637,
+          "rounds": 2,
+          "tools_called": 1,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "wrong_age",
+            "missing_a1c"
+          ]
+        },
+        "task11_30": {
+          "task_id": "task11_30",
+          "correct": false,
+          "status": "completed",
+          "agent_answer": "[\"MEDIUM\", 1, 53, null, 0.0]",
+          "expected_answer": null,
+          "time_used": 6.1512627601623535,
+          "rounds": 3,
+          "tools_called": 4,
+          "primary_failure": "answer_mismatch",
+          "failure_details": [
+            "wrong_risk_level",
+            "wrong_risk_score",
+            "wrong_age",
+            "missing_a1c"
+          ]
+        }
+      },
+      "time_used": 1662.4939303398132
+    }
+  ]
+}
